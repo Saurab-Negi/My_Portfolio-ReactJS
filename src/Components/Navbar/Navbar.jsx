@@ -5,7 +5,7 @@ function Navbar() {
     <div className="n-wrapper">
         <div className="n-left">
             <div className="n-name">Saurab Negi</div>
-            <span>Toggle</span>
+            <span className="Toggler">Toggle</span>
         </div>
         <div className="n-right">
             <div className="n-list">
@@ -17,9 +17,7 @@ function Navbar() {
                     <li>Testimonials</li>
                 </ul>
             </div>
-            <button className="button n-button">
-                Contact us
-            </button>
+            <button className="button n-btn">Contact us</button>
         </div>
     </div>
   )

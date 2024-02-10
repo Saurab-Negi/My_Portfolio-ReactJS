@@ -1,2 +1,8 @@
-# My_Portfolio-ReactJS
-Crafted with HTML, CSS, and JavaScript, my portfolio website showcases my endeavors elegantly. Using React.js, it exudes dynamism and interactivity, ensuring a seamless user experience. From captivating design to smooth navigation, it's a personalized hub reflecting my skills and aspirations in a captivating digital realm.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
