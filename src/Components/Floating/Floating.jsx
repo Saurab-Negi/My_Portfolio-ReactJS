@@ -1,5 +1,4 @@
-import React from 'react'
-import './Floating .css'
+import './Floating.css'
 
 const Floating = ({image, txt1, txt2}) => {
   return (

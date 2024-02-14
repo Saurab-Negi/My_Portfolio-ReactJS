@@ -13,10 +13,11 @@
 
 body{
   margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .App{
     padding: 0.5rem 1rem;
-    /* overflow: hidden; */
+    overflow: hidden;
     color: var(--black);
 }
 .button{ /* Creating a button which will be used everywhere */

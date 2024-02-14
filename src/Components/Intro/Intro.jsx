@@ -5,8 +5,8 @@ import LinkedIn from '../../Images/linkedin.png'
 import LeetCode from '../../Images/leetcode.png'
 import Vector1 from '../../Images/Vector1.png'
 import Vector2 from '../../Images/Vector2.png'
-import boy from '../../Images/boy.png'
-import thumbup from '../../Images/thumbup.png'
+import Boy from '../../Images/boy.png'
+import Thumbup from '../../Images/thumbup.png'
 import Crown from '../../Images/crown.png'
 import GlassesImoji from '../../Images/glassesimoji.png'
 import Floating from '../Floating/Floating'
@@ -33,10 +33,17 @@ const Intro = () => {
         <div className="i-right">
             <img src={Vector1} />
             <img src={Vector2} />
-            <img src={boy} />
-            <div className='floating'>
+            <img src={Boy} />
+            <img src={GlassesImoji} />
+            <div className='floating-crown'>
             <Floating image={Crown} txt1='Web' txt2='Developer'/>
             </div>
+            <div className='floating-thumb'>
+            <Floating image={Thumbup} txt1='Best Design' txt2='Awesome'/>
+            </div>
+            {/* Blur divs */}
+            <div className="blur" id="blur-1"></div>
+            <div className="blur" id="blur-2"></div>
         </div>
     </div>
   )
