@@ -87,21 +87,15 @@
     top: 20rem;
     left: 0rem;
 }
-.i-right .blur{
-    background-color: rgb(238,210,255);
+.blur{
     position: absolute;
     width: 22rem;
     height: 14rem;
-    border-radius: #edd0ff;
-    filter: blur(72px);
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(212px);
     z-index: -9;
     top: -18%;
     left: 56%;
-}
-.i-right #blur-1{
-    background-color: #C1F5FF;
-    top: 17rem;
-    left: -10rem;
-    width: 20rem;
-    height: 11rem;
+    filter: blur(72px);
 }

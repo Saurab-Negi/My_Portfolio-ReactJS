@@ -28,7 +28,7 @@
     font-size: 14px;
     margin-top: 1rem;
 }
-.s-details .s-button{
+.s-button{
     width: 8rem;
     height: 2rem;
     margin-top: 1.5rem;
@@ -54,13 +54,11 @@
 }
 
 /* Blur */
-.services .s-blur1{
-    left: -18rem;
-    top: 13rem;
-    background: #ABF1FF94;
+.s-blur1{
+    left: 5rem;
+    top: 17rem;
 }
-.services .s-blur2{
-    left: 14rem;
+.s-blur2{
+    left: 5rem;
     top: 8rem;
-    background: var(--purple);
 }

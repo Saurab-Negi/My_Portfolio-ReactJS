@@ -1,4 +1,3 @@
-import React from 'react'
 import './Intro.css'
 import Github from '../../Images/github.png'
 import LinkedIn from '../../Images/linkedin.png'
@@ -42,8 +41,8 @@ const Intro = () => {
             <Floating image={Thumbup} txt1='Best Design' txt2='Awesome'/>
             </div>
             {/* Blur divs */}
-            <div className="blur" id="blur-1"></div>
-            <div className="blur" id="blur-2"></div>
+            <div className="blur" style={{background: "rgb(238 210 255)"}}></div>
+            <div className="blur" style={{background: "#C1F5FF",top: "17rem", width: "21rem",height: "11rem",left: "-9rem",}}></div>
         </div>
     </div>
   )

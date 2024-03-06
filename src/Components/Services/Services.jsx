@@ -16,7 +16,7 @@ const Services = () => {
             cum nostrum ea, quas saepe eligendi expedita placeat delectus exercitationem rem!
         </span>
         <a href={Resume} download><button className="button s-button">Resume</button></a>
-        <div className="blur s-blur1"></div>
+        <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
         </div>
         
         {/* right side */}
@@ -42,7 +42,7 @@ const Services = () => {
               detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
               />
             </div>
-            <div className="blur s-blur2"></div>
+            <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>
         </div>
     </div>
   )
