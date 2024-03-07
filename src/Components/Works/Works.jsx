@@ -14,8 +14,8 @@ function Works() {
     <div className="works">
       {/* left side */}
       <div className="s-details">
-        <span>Completed</span>
-        <span>projects</span>
+        <span>Technologies used in</span>
+        <span>Projects</span>
         <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aperiam omnis fugiat,<br></br>
             cum nostrum ea, quas saepe eligendi expedita placeat delectus exercitationem rem!
         </span>

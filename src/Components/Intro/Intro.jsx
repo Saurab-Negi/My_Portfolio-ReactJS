@@ -17,9 +17,8 @@ const Intro = () => {
             <div className="i-name">
                 <span>Hi! I Am</span>
                 <span>Saurab Negi</span>
-                <span>Frontend Developer with high level
-                    of experience in web designing and 
-                    development, producing the Quality work
+                <span>
+                    A student of Master of Computer Applications. My passion lies in web development,<br></br> where I've honed skills in both frontend and backend technologies. Proficient in<br></br> HTML, CSS, JavaScript, Bootstrap, React for frontend, and Node.js, Express.js,<br></br> EJS, REST APIs, and MongoDB for backend. I've successfully crafted numerous<br></br> projects showcasing my expertise in these areas. Looking forward to<br></br> contributing my knowledge and creativity to meaningful endeavors<br></br> in the field of web development.
                 </span>
             </div>
             <button className="button i-btn">Hire me</button>

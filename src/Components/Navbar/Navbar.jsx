@@ -1,11 +1,12 @@
 import './Navbar.css'
+import Toggle from '../Toggle/Toggle'
 
 function Navbar() {
   return (
     <div className="n-wrapper">
         <div className="n-left">
             <div className="n-name">Saurab Negi</div>
-            <span className="Toggler">Toggle</span>
+            <Toggle />
         </div>
         <div className="n-right">
             <div className="n-list">
@@ -14,7 +15,7 @@ function Navbar() {
                     <li>Services</li>
                     <li>Project</li>
                     <li>Portfolio</li>
-                    <li>Testimonials</li>
+                    <li>Experience</li>
                 </ul>
             </div>
             <button className="button n-btn">Contact</button>

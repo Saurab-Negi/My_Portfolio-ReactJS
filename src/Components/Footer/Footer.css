@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -10rem;
+}
+.f-content{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 9rem;
+    gap: 2rem;
+    color: white;
+}
+.f-icons{
+    display: flex;
+    gap: 2rem;
+}
+.f-icon:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

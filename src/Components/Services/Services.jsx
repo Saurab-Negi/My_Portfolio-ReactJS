@@ -12,8 +12,7 @@ const Services = () => {
         <div className="s-details">
         <span>My</span>
         <span>Services</span>
-        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aperiam omnis fugiat,<br></br>
-            cum nostrum ea, quas saepe eligendi expedita placeat delectus exercitationem rem!
+        <span>I am Saurab Negi, currently pursuing a Master of Computer Applications. My passion lies<br></br> in web development, where I've honed skills in both frontend and backend technologies.<br></br> Proficient in HTML, CSS, JavaScript, Bootstrap, React for frontend, and Node.js,<br></br> Express.js, EJS, REST APIs, and MongoDB for backend. I've successfully<br></br> crafted numerous projects showcasing my expertise in these areas.<br></br> Looking forward to contributing my knowledge and creativity to<br></br> meaningful endeavors in the field of web development.
         </span>
         <a href={Resume} download><button className="button s-button">Resume</button></a>
         <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>

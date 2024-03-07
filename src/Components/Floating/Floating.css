@@ -8,10 +8,11 @@
     padding: 0px 28px 0px 0px;
     height: 4.5rem;
 }
-.floating img{
-    transform: scale(0.2);
+.floating>img{
+    transform: scale(0.4);
 }
-.floating span{
+.floating>span{
     font-family: sans-serif;
     font-size: 16px;
+    color: black;
 }
