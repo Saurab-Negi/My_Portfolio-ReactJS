@@ -41,17 +41,6 @@
 .cards>*{ /* Everything inside the card div*/
     position: absolute;
 }
-.cards .card-1{
-    left: 14rem;
-}
-.cards .card-2{
-    top: 12rem;
-    left: -4rem;
-}
-.cards .card-3{
-    top: 19rem;
-    left: 12rem;
-}
 
 /* Blur */
 .s-blur1{

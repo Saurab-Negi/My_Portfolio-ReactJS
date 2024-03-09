@@ -1,8 +1,11 @@
 import './Contact.css'
 import emailjs from '@emailjs/browser'; //Used to get the information of the sender whoever is contacting you
-import { useRef, useState } from 'react';
+import React, { useContext, useRef, useState } from "react";
+import { themeContext } from "../../Context";
 
 function Contact() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   const form = useRef();
 
   const [done, setDone]= useState(false) //It is used here to reply for the incoming message
@@ -24,7 +27,7 @@ function Contact() {
     <div className='contact-form'>
       <div className="w-left">
         <div className="s-details">
-          <span>Get in touch</span>
+          <span style={{color: darkMode?'white': ''}}>Get in touch</span>
           <span>Contact me</span>
           <div className="blur s-blur1" style={{background:"#ABF1FF94"}}></div>
         </div>

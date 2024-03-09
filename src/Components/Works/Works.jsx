@@ -8,23 +8,35 @@ import Amazon from "../../Images/amazon.png"
 // import Facebook from "../../Images/Facebook.png"
 import Shopify from "../../Images/Shopify.png"
 // import Amazon from "../../Images/amazon.png"
+import React, { useContext } from "react";
+import { themeContext } from "../../Context";
+import { motion } from "framer-motion";
 
 function Works() {
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
-    <div className="works">
+    <div className="works" id="works">
       {/* left side */}
+      <div className="w-right">
       <div className="s-details">
-        <span>Technologies used in</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Technologies used in</span>
         <span>Projects</span>
-        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aperiam omnis fugiat,<br></br>
+        <span style={{ color: darkMode ? "white" : "" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aperiam omnis fugiat,<br></br>
             cum nostrum ea, quas saepe eligendi expedita placeat delectus exercitationem rem!
         </span>
         <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
         </div>
+      </div>
 
         {/* Right side */}
         <div className="w-right">
-          <div className="w-mainCircle">
+          <motion.div className="w-mainCircle"
+          initial={{ rotate: 45 }}
+          whileInView={{ rotate: 0 }}
+          viewport={{ margin: "-40px" }}
+          transition={{ duration: 3.5, type: "spring" }}>
             <div className="w-secCircle">
               <img src={Upwork} alt="" />
             </div>
@@ -40,7 +52,7 @@ function Works() {
             <div className="w-secCircle">
               <img src={Facebook} alt="" />
             </div>
-          </div>
+            </motion.div>
           {/* background circles */}
           <div className="w-backCircle blueCircle"></div>
           <div className="w-backCircle yellowCircle"></div>
