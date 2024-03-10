@@ -1,14 +1,10 @@
 import './Works.css'
-import Upwork from "../../Images/js.png"
-import Fiverr from "../../Images/react.png"
-import Facebook from "../../Images/html.png"
-import Amazon from "../../Images/amazon.png"
-// import Upwork from "../../Images/Upwork.png"
-// import Fiverr from "../../Images/fiverr.png"
-// import Facebook from "../../Images/Facebook.png"
-import Shopify from "../../Images/Shopify.png"
-// import Amazon from "../../Images/amazon.png"
-import React, { useContext } from "react";
+import JS from "../../Images/js.png"
+import CSS from "../../Images/css.png"
+import HTML from "../../Images/html.png"
+import React from "../../Images/react.png"
+import Bootstrap from "../../Images/bootstrap.png"
+import { useContext } from "react";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
@@ -17,7 +13,7 @@ function Works() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="works" id="works">
+    <div className="works" id="Works">
       {/* left side */}
       <div className="w-right">
       <div className="s-details">
@@ -38,19 +34,19 @@ function Works() {
           viewport={{ margin: "-40px" }}
           transition={{ duration: 3.5, type: "spring" }}>
             <div className="w-secCircle">
-              <img src={Upwork} alt="" />
+              <img className='js' src={JS} alt="" />
             </div>
             <div className="w-secCircle">
-              <img src={Fiverr} alt="" />
+              <img className='css' src={CSS} alt="" />
             </div>
             <div className="w-secCircle">
-              <img src={Amazon} alt="" />
+              <img className='react' src={React} alt="" />
             </div>
             <div className="w-secCircle">
-              <img src={Shopify} alt="" />
+              <img className='bootstrap' src={Bootstrap} alt="" />
             </div>
             <div className="w-secCircle">
-              <img src={Facebook} alt="" />
+              <img className='html' src={HTML} alt="" />
             </div>
             </motion.div>
           {/* background circles */}

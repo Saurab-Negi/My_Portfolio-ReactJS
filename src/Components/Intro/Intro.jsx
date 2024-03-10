@@ -20,6 +20,7 @@ const Intro = () => {
 
   return (
     <div className="intro">
+        {/* left side */}
         <div className="i-left">
             <div className="i-name">
                 <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
@@ -28,7 +29,6 @@ const Intro = () => {
                     A student of Master of Computer Applications. My passion lies in web development,<br></br> where I've honed skills in both frontend and backend technologies. Proficient in<br></br> HTML, CSS, JavaScript, Bootstrap, React for frontend, and Node.js, Express.js,<br></br> EJS, REST APIs, and MongoDB for backend. I've successfully crafted numerous<br></br> projects showcasing my expertise in these areas. Looking forward to<br></br> contributing my knowledge and creativity to meaningful endeavors<br></br> in the field of web development.
                 </span>
             </div>
-            <button className="button i-btn">Hire me</button>
             <div className="i-icons">
                 <a href='https://github.com/Saurab-Negi'><img src={Github} /></a>
                 <a href='https://www.linkedin.com/in/saurab-negi-b06442285/'><img src={LinkedIn} /></a>
@@ -41,24 +41,22 @@ const Intro = () => {
             <img src={Boy} />
 
             <motion.img 
-            initial={{left: '-25%'}}
-            animate={{left: '-17%'}}
+            initial={{ left: "-36%" }}
+            whileInView={{ left: "-24%" }}
             transition={transition}
             src={GlassesImoji} />
 
             <motion.div
-            initial={{top: '1%', left: '66%'}}
-            whileInView={{left: '60%'}}
-            transition={transition}
-            style={{top: '1%', left: '60%'}}>
+            initial={{ top: "-4%", left: "74%" }}
+            whileInView={{ left: "60%" }}
+            transition={transition}>
             <Floating image={Crown} txt1='Web' txt2='Developer'/>
             </motion.div>
 
             <motion.div
-            initial={{top: '24.5rem', left: '5rem'}}
-            whileInView={{left: '1rem'}}
-            transition={transition}
-            style={{top: '24.5rem', left: '1rem'}}>
+            initial={{ left: "9rem", top: "24.5rem" }}
+            whileInView={{ left: "0rem" }}
+            transition={transition}>
             <Floating image={Thumbup} txt1='Best Design' txt2='Awesome'/>
             </motion.div>
 

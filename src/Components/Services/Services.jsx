@@ -14,7 +14,7 @@ const Services = () => {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="services">
+    <div className="services" id='Services'>  {/* id: Used for smooth scrolling */}
         {/* left side */}
         <div className="s-details">
         <span style={{ color: darkMode ? "white" : "" }}>My</span>
@@ -55,6 +55,7 @@ const Services = () => {
               emoji={Humble}
               heading={'UI/UX'}
               detail={"Lorem ipsum dolor sit amet consectetur adipisicing elit."}
+              color="rgba(252, 166, 31, 0.45)"
               />
             </motion.div>
             <div className="blur s-blur2" style={{background: "var(--purple)"}}></div>
