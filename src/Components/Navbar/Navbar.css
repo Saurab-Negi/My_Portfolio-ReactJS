@@ -46,3 +46,8 @@
     scale: 1.1;
     opacity: 0.9;
   }
+  @media screen and (max-width: 480px) {
+    .n-list{
+        display: none;
+    }
+  }

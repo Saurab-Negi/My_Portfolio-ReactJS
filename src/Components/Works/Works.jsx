@@ -15,7 +15,7 @@ function Works() {
   return (
     <div className="works" id="Works">
       {/* left side */}
-      <div className="w-right">
+      <div className="w-left">
       <div className="s-details">
         <span style={{ color: darkMode ? "white" : "" }}>Technologies used in</span>
         <span>Projects</span>

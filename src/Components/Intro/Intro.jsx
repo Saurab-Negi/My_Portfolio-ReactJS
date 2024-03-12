@@ -48,16 +48,18 @@ const Intro = () => {
 
             <motion.div
             initial={{ top: "-4%", left: "74%" }}
-            whileInView={{ left: "60%" }}
-            transition={transition}>
+            whileInView={{ left: "68%" }}
+            transition={transition}
+            className='floating-div'>
             <Floating image={Crown} txt1='Web' txt2='Developer'/>
             </motion.div>
 
             <motion.div
             initial={{ left: "9rem", top: "24.5rem" }}
-            whileInView={{ left: "0rem" }}
-            transition={transition}>
-            <Floating image={Thumbup} txt1='Best Design' txt2='Awesome'/>
+            whileInView={{ left: "1rem" }}
+            transition={transition}
+            className='floating-div'>
+            <Floating image={Thumbup} txt1='Awesome' txt2='Design'/>
             </motion.div>
 
             {/* Blur divs */}
