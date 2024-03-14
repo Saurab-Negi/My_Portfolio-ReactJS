@@ -1,12 +1,17 @@
 .works{
     padding: 0.3rem 0.3rem;
     display: flex;
-    height: 90vh;
+    flex-direction: column;
+    height: 130vh;
     margin-top: 4rem;
-    padding-top: 5rem;
+    gap: 7rem;
 }
+
 /* right side */
 .w-right{
+    display: flex;
+    flex-direction: row;
+    gap: 24rem;
     position: relative;
 }
 .w-mainCircle{
@@ -69,7 +74,21 @@
 .react{
     transform: scale(0.25);
 }
-
+.mongo{
+    transform: scale(0.13);
+}
+.rest{
+    transform: scale(0.13);
+}
+.bootstrap{
+    transform: scale(0.35);
+}
+.express{
+    transform: scale(0.15);
+}
+.node{
+    transform: scale(0.13);
+}
 .w-backCircle{
     position: absolute;
     height: 13rem;
@@ -77,25 +96,42 @@
     border-radius: 100%;
     z-index: -1;
 }
-.blueCircle{
+.blueCircle1{
     background-color: #194988;
     left: 18rem;
     top: 0rem;
 }
-.yellowCircle{
+.yellowCircle1{
     background: #F5C32C;
     left: 18rem;
     top: 8rem;
 }
+.blueCircle2{
+    background-color: #194988;
+    left: 60rem;
+    top: 0rem;
+}
+.yellowCircle2{
+    background: #F5C32C;
+    left: 60rem;
+    top: 8rem;
+}
+.w-tech{
+    font-size: 2rem;
+    font-weight: 600;
+    top: 26rem;
+    color: rgb(34, 41, 230);
+}
 @media screen and (max-width: 480px) {
     .works{
         flex-direction: column;
-        height: 45rem;
+        height: 75rem;
         padding: 0;
-        gap: 5rem;
+        gap: 1rem;
     }
     .w-right{
         display: flex;
+        flex-direction: column;
         align-items: flex-start;
         justify-content: start;
         transform: scale(0.7);

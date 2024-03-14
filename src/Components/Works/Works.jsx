@@ -4,6 +4,10 @@ import CSS from "../../Images/css.png"
 import HTML from "../../Images/html.png"
 import React from "../../Images/react.png"
 import Bootstrap from "../../Images/bootstrap.png"
+import Node from "../../Images/node.png"
+import Express from "../../Images/express.png"
+import REST from "../../Images/rest.png"
+import Mongo from "../../Images/mongo.png"
 import { useContext } from "react";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
@@ -17,7 +21,7 @@ function Works() {
       {/* left side */}
       <div className="w-left">
       <div className="s-details">
-        <span style={{ color: darkMode ? "white" : "" }}>Technologies used in</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Technologies used</span>
         <span>Projects</span>
         <span style={{ color: darkMode ? "white" : "" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aperiam omnis fugiat,<br></br>
             cum nostrum ea, quas saepe eligendi expedita placeat delectus exercitationem rem!
@@ -48,10 +52,36 @@ function Works() {
             <div className="w-secCircle">
               <img className='html' src={HTML} alt="" />
             </div>
+            <span className='w-tech' style={{left: 60}}>Frontend</span>
             </motion.div>
           {/* background circles */}
-          <div className="w-backCircle blueCircle"></div>
-          <div className="w-backCircle yellowCircle"></div>
+          <div className="w-backCircle blueCircle1"></div>
+          <div className="w-backCircle yellowCircle1"></div>
+
+          <motion.div className="w-mainCircle"
+          initial={{ rotate: 45 }}
+          whileInView={{ rotate: 0 }}
+          viewport={{ margin: "-40px" }}
+          transition={{ duration: 3.5, type: "spring" }}>
+            <div className="w-secCircle">
+              <img className='express' src={Express} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img className='rest' src={REST} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img className='node' src={Node} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img className='bootstrap' src={Bootstrap} alt="" />
+            </div>
+            <div className="w-secCircle">
+              <img className='mongo' src={Mongo} alt="" />
+            </div>
+            <span className='w-tech' style={{left: 75}}>Backend</span>
+            </motion.div>
+          <div className="w-backCircle blueCircle2"></div>
+          <div className="w-backCircle yellowCircle2"></div>
         </div>
     </div>
   )
