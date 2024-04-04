@@ -4,13 +4,14 @@ import LinkedIn from '../../Images/linkedin.png'
 import LeetCode from '../../Images/leetcode.png'
 import Vector1 from '../../Images/Vector1.png'
 import Vector2 from '../../Images/Vector2.png'
-import Boy from '../../Images/boy.png'
+//import Boy from '../../Images/boy.png'
+import Boy from '../../Images/saurab.jpg'
 import Thumbup from '../../Images/thumbup.png'
 import Crown from '../../Images/crown.png'
 import GlassesImoji from '../../Images/glassesimoji.png'
 import Floating from '../Floating/Floating'
 import {motion} from "framer-motion"
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { themeContext } from "../../Context";
 
 const Intro = () => {
