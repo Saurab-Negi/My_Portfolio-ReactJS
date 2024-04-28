@@ -19,7 +19,27 @@ const Services = () => {
         <div className="s-details">
         <span style={{ color: darkMode ? "white" : "" }}>My</span>
         <span>Services</span>
-        <span style={{ color: darkMode ? "white" : "" }}>I am Saurab Negi, currently pursuing a Master of Computer Applications. My passion lies<br></br> in web development, where I've honed skills in both frontend and backend technologies.<br></br> Proficient in HTML, CSS, JavaScript, Bootstrap, React for frontend, and Node.js,<br></br> Express.js, EJS, REST APIs, and MongoDB for backend. I've successfully<br></br> crafted numerous projects showcasing my expertise in these areas.<br></br> Looking forward to contributing my knowledge and creativity to<br></br> meaningful endeavors in the field of web development.
+        <span style={{ color: darkMode ? "white" : "" }}>
+        I've developed numerous web projects and gained experience in UI/UX design<br></br> with Figma. My portfolio includes a range of web development endeavors<br></br> alongside proficiency in crafting user-centric interfaces, showcasing<br></br> my skills in both domains.
+        <h4>Frontend:</h4> 
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>JavaScript</li>
+          <li>EJS</li>
+          <li>React</li>
+        </ul>
+        <h4>Backend:</h4>
+        <ul>
+          <li>Express</li>
+          <li>RestApi's</li>
+          <li>Node</li>
+        </ul>
+        <h4>Database:</h4>
+        <ul>
+          <li>MySQL</li>
+          <li>MongoDB</li>
+        </ul>
         </span>
         <a href={Resume} download><button className="button s-button">Resume</button></a>
         <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>

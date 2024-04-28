@@ -1,10 +1,9 @@
 .services{
-    padding: 0 3rem 0 3rem;
+    padding: 1rem 3rem 0 3rem;
     display: flex;
     height:  30rem;
     margin-bottom: 8rem;
     margin-top: 9rem;
-    padding-top: 2rem;
 }
 
 /* left side */
@@ -37,6 +36,7 @@
 /* Right side */
 .cards{
     position: relative;
+    left: 7rem;
 }
 .cards>*{ /* Everything inside the card div*/
     position: absolute;
@@ -45,11 +45,11 @@
 /* Blur */
 .s-blur1{
     left: 5rem;
-    top: 17rem;
+    top: 20rem;
 }
 .s-blur2{
     left: 5rem;
-    top: 8rem;
+    top: 6rem;
 }
 @media screen and (max-width: 480px) {
     .services{

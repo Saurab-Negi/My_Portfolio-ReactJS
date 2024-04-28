@@ -15,6 +15,7 @@
 .n-name{
     font-size: 1.5rem;
     font-weight: 600;
+    color: var(--orange);
 }
 
 .n-right {
@@ -29,7 +30,7 @@
 }
 .n-list>ul{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     margin-right: 4rem;
     list-style-type: none;
 }

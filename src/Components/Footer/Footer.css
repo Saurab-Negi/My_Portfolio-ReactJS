@@ -3,7 +3,11 @@
     align-items: center;
     margin: -0.5rem -3.5rem;
     position: relative;
-    margin-top: -10rem;
+    margin-top: -8rem;
+    height: 10rem;
+    background: rgb(84, 158, 255);
+    border-top-left-radius: 7rem;
+    border-top-right-radius: 7rem;
 }
 .f-content{
     position: absolute;
@@ -12,8 +16,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 9rem;
-    gap: 2rem;
+    gap: 1rem;
     color: white;
 }
 .f-icons{

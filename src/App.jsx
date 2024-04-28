@@ -3,8 +3,8 @@ import Navbar from "./Components/Navbar/Navbar"
 import Intro from "./Components/Intro/Intro";
 import Services from "./Components/Services/Services";
 import Experience from "./Components/Experience/Experience";
-import Works from "./Components/Works/Works";
-import Portfolio from "./Components/Portfolio/Portfolio";
+import Tech from './Components/Tech/Tech';
+import Project from './Components/Project/Project';
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
 import { themeContext } from './Context';
@@ -25,8 +25,8 @@ function App(){
       <Intro />
       <Services />
       <Experience />
-      <Portfolio />
-      <Works />
+      <Project />
+      <Tech />
       <Contact />
       <Footer />
     </div>

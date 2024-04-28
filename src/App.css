@@ -1,13 +1,13 @@
 :root
 {
   --yellow: #F5C32C;
-    --orange : #FCA61F;
+    --orange : #008DDA;
     --black : #242D49;
     --gray : #788097;
     --blueCard : #DDF8FE;
     --purple: rgb(238 210 255);
     --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
-    --orangeCard: rgba(252, 166, 31, 0.45);
+    --orangeCard: #50C4ED;
     --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
@@ -22,18 +22,17 @@ body{
 }
 .button{ /* Creating a button which will be used everywhere */
   border-radius: 30px;
+  cursor: pointer;
   border: none;
   color: #fff;
   font-size: 15px;
   padding: 10px 15px;
-  background: linear-gradient(180deg, yellow, orange);
-  box-shadow: 0px 5px 10px 5px rgb(249, 201, 113);
+  background: linear-gradient(40deg, rgba(105,97,255,1) 30%, rgba(77,191,255,1) 72%);
+  box-shadow: 0px 5px 10px 5px rgb(91, 188, 255);
 }
 .button:hover{
-  cursor: pointer;
   scale: 1.1;
   opacity: 0.9;
-  box-shadow: 0px 7px 12px 6px rgb(249, 201, 113);
 }
 @media screen and (max-width: 480px) {
   .App {

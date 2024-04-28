@@ -36,7 +36,7 @@ function Contact() {
       <form ref={form} onSubmit={sendEmail}>
         <input type="text" name='user_name' className="user" placeholder='Name' required />
         <input type="text" name='user_email' className="user" placeholder='Email' required />
-        <textarea name='message' className='user' placeholder='message' required />
+        <textarea name='message' className='user' placeholder='Message' required />
         <input type="submit" value="Send" className='button' />
         <span>{done && "Arigatou gozaimasu! for contacting"}</span>
         <div className="blur c-blur" style={{background:"var(--purple)"}}></div>

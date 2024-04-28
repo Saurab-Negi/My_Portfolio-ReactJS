@@ -27,7 +27,7 @@ const Intro = () => {
                 <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
                 <span>Saurab Negi</span>
                 <span style={{ color: darkMode ? "white" : "" }}>
-                    A student of Master of Computer Applications. My passion lies in web development,<br></br> where I've honed skills in both frontend and backend technologies. Proficient in<br></br> HTML, CSS, JavaScript, Bootstrap, React for frontend, and Node.js, Express.js,<br></br> EJS, REST APIs, and MongoDB for backend. I've successfully crafted numerous<br></br> projects showcasing my expertise in these areas. Looking forward to<br></br> contributing my knowledge and creativity to meaningful endeavors<br></br> in the field of web development.
+                    A student of Master of Computer Applications. My passion lies in web development,<br></br> where I've honed skills in both frontend and backend technologies. Proficient in<br></br> HTML, CSS, JavaScript, Bootstrap, React for frontend. Node.js, Express.js, EJS<br></br> and REST APIs for backend, MySql and MongoDB for the database. I've<br></br> successfully crafted numerous projects showcasing my expertise in these<br></br> areas. Looking forward to contributing my knowledge and creativity to<br></br> meaningful endeavors in the field of web development.
                 </span>
             </div>
             <div className="i-icons">
@@ -60,7 +60,7 @@ const Intro = () => {
             whileInView={{ left: "1rem" }}
             transition={transition}
             className='floating-div'>
-            <Floating image={Thumbup} txt1='Awesome' txt2='Design'/>
+            <Floating image={Thumbup} txt1='UI/UX' txt2='Designer'/>
             </motion.div>
 
             {/* Blur divs */}

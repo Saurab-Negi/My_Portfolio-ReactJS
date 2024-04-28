@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 130vh;
     margin-top: 4rem;
-    gap: 7rem;
+    gap: 5rem;
 }
 
 /* right side */
@@ -120,7 +120,7 @@
     font-size: 2rem;
     font-weight: 600;
     top: 26rem;
-    color: rgb(34, 41, 230);
+    color: rgb(40, 158, 255);
 }
 @media screen and (max-width: 480px) {
     .works{

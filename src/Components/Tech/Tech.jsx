@@ -1,4 +1,4 @@
-import './Works.css'
+import './Tech.css'
 import JS from "../../Images/js.png"
 import CSS from "../../Images/css.png"
 import HTML from "../../Images/html.png"
@@ -12,20 +12,17 @@ import { useContext } from "react";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
 
-function Works() {
+function Tech() {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className="works" id="Works">
+    <div className="works" id="Tech">
       {/* left side */}
       <div className="w-left">
       <div className="s-details">
-        <span style={{ color: darkMode ? "white" : "" }}>Technologies used</span>
+        <span style={{ color: darkMode ? "white" : "" }}>Technologies used in</span>
         <span>Projects</span>
-        <span style={{ color: darkMode ? "white" : "" }}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores aperiam omnis fugiat,<br></br>
-            cum nostrum ea, quas saepe eligendi expedita placeat delectus exercitationem rem!
-        </span>
         <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
         </div>
       </div>
@@ -87,4 +84,4 @@ function Works() {
   )
 }
 
-export default Works
+export default Tech

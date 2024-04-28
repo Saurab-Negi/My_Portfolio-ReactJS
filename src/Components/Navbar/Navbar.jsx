@@ -21,10 +21,10 @@ function Navbar() {
                     <li>Services</li></Link>
                     <Link spy={true} to='Experience' smooth={true}>
                     <li>Experience</li></Link>
-                    <Link spy={true} to='Portfolio' smooth={true}>
-                    <li>Portfolio</li></Link>
-                    <Link spy={true} to='Works' smooth={true}>
-                    <li>Project</li></Link>                   
+                    <Link spy={true} to='Project' smooth={true}>
+                    <li>Project</li></Link>
+                    <Link spy={true} to='Tech' smooth={true}>
+                    <li>Technology</li></Link>                   
                 </ul>
             </div>
             <Link spy={true} to='Contact' smooth={true}>
